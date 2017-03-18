@@ -1,0 +1,79 @@
+
+html {
+  /*background-color: #48a1ce;*/
+  background-image: url("http://streetsmash.com/wp-content/uploads/2013/04/old-scroll-texture-02-3_thumb.jpg");
+  background-size: cover;
+}
+
+div {
+  text-align: center;
+  font-size: 18px;
+  font-family: 'Slabo 27px', serif;
+}
+
+p {
+  font-size: 14px;
+}
+
+.main {
+    height: 250px;
+    width: 400px;
+    /*background: #aaa07e;*/
+    background-color: rgba(170, 160, 126, 0.27);
+  
+  
+    /*Center page on screen*/
+    position: absolute;
+    left: 0; right: 0;
+    top: 0; bottom: 0;
+    margin: auto;
+  
+    border-radius: 25px;
+  
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/*.flex-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}*/
+
+.new-quote-btn {
+  /*float: right;*/
+  align-self: flex-end;
+  font-size: 15px;
+}
+button {
+  height: 40px;
+  background-color: #776f55;
+}
+
+button:hover{
+  background-color: #70674c;
+  cursor: pointer;
+}
+
+.twitter-logo {
+  top: 100px;
+}
+
+.quote-text {
+  /*padding: 50px 0;*/
+  display: flex;
+  /*flex-direction: column;*/
+  flex-basis: 100px;
+  align-items: center;
+  /*justify-content: center;*/
+}
+.quotee {
+  align-self: flex-end;
+}
+
+
+
+
