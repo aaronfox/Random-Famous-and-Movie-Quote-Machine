@@ -4,7 +4,7 @@ var famOrMov = "famous";
 function getNewQuote() {
 $.ajax({ 
   url : "https://andruxnet-random-famous-quotes.p.mashape.com/?cat=" + famOrMov, 
-  headers: {"X-Mashape-Key": "oXoevNU7jhmshRub2kQ5Yxl1cTMWp1bdjmYjsn9kZ65gqBNa3h", "Content-Type": "application/x-www-form-urlencoded", "Accept": "application/json"},
+  headers: {"X-Mashape-Key": "wfCzrNcRT4msh2qGHhfQd1TWRRnUp1j3dNGjsnwBjxmBI3HcD8", "Content-Type": "application/x-www-form-urlencoded", "Accept": "application/json"},
    success: function(result) { 
      var allJSON = JSON.parse(result);
      var quoteString = allJSON.quote;
